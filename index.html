@@ -12,11 +12,15 @@
                 <h1>Telephone Number Validator</h1>
                 <p>Enter a phone number:</p>
                 <input id="user-input" placeholder="555-111-2222"></input>
-                <button id="check-btn">Validate Phone Number</button>
+                <button id="check-btn" type="submit" onclick="checkPhoneNumber()">Validate Phone Number</button>
                 <button id="clear-btn">Clear</button>
+                <div class="hide">
+                    <p id="output" class="output-container alert"></p>
+                </div>
             </div>
-            <div class="results-div">
+            <div class="results-div hide">
             </div>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
